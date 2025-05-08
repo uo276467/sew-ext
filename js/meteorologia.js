@@ -32,11 +32,9 @@ class Meteorologia {
       success: function cargarDatos(xml) {
         const $xml = $(xml);
         const $forecast = $xml.find("forecast");
-        let html = `<h2>Predicción Meteorológica para Mieres</h2>`;
 
         $forecast.find("time").each(function (index) {
           const $time = $(this);
-          const date = $time.attr("day");
           const temperatureMin = $time.find("temperature").attr("min");
           const temperatureMax = $time.find("temperature").attr("max");
           const temperatureUnit = $time.find("temperature").attr("unit");
@@ -107,7 +105,8 @@ class Meteorologia {
             iconoFormat +
             "' alt='" +
             iconName +
-            "'>";
+            index;
+          ("'>");
           stringDatos += "<figcaption>" + iconName + "</figcaption>";
           stringDatos += "</figure>";
 

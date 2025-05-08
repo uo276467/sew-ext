@@ -14,8 +14,10 @@ class Pregunta {
     h3.textContent = this.texto;
     this.article.appendChild(h3);
 
-    this.resultado = document.createElement("h4");
-    this.article.appendChild(this.resultado);
+    let fieldset = document.createElement("fieldset");
+    let legend = document.createElement("legend");
+    legend.textContent = "Opciones de respuesta";
+    fieldset.appendChild(legend);
 
     for (let j = 1; j <= 5; j++) {
       let p = document.createElement("p");
@@ -28,9 +30,11 @@ class Pregunta {
       label.textContent = this.respuestasTexto[j - 1];
       label.prepend(input);
       p.appendChild(label);
-      this.article.appendChild(p);
+      fieldset.appendChild(p);
       this.respuestas.push({ input, label });
     }
+
+    this.article.appendChild(fieldset);
     return this.article;
   }
 
