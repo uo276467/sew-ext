@@ -105,9 +105,8 @@ class Meteorologia {
             iconoFormat +
             "' alt='" +
             iconName +
-            "_" +
-            index;
-          ("'>");
+            index +
+            "'>";
           stringDatos += "<figcaption>" + iconName + "</figcaption>";
           stringDatos += "</figure>";
 
