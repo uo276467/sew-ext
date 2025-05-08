@@ -1,0 +1,10 @@
+/* Daniel Suárez de la Roza UO276467 */
+
+/*Especificidad 001*/
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+}
