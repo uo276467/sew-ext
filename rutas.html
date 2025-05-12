@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mieres: rutas</title>
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" />
+
+    <meta name="author" content="Daniel Suárez de la roza" />
+    <meta name="description" content="descripción del documento" />
+    <meta name="keywords" content="Mieres, rutas" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBAQHjy-15VCba2o5ZQ6nVJXD8iVdBQYs"
+    ></script>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1><a href="index.html">Mieres</a></h1>
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="gastronomia.html">Gastronomia</a>
+          <a href="rutas.html" class="activo">Rutas</a>
+          <a href="meteorologia.html">Meteorología</a>
+          <a href="juego.html">Juego</a>
+          <a href="php/reservas.php">Reservas</a>
+          <a href="ayuda.html">Ayuda</a>
+        </nav>
+      </header>
+
+      <p>Estás en: Rutas</p>
+
+      <section>
+        <h2>Rutas</h2>
+        <label for="archivos">Selecciona archivos XML:</label>
+        <p><input type="file" id="archivos" multiple /></p>
+      </section>
+    </main>
+    <script src="js/rutas.js"></script>
+  </body>
+</html>

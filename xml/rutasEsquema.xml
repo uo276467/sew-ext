@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsd" href="rutas.xsd"?>
+
+<rutas>
+    <ruta nombre="Ruta del ferrocarril de Baltasara" tipo="Arquitectura y monumentos" medioTransporte="A pie" fechaInicio="2025-06-22" horaInicio="10:00:00" duracion="1 hora"
+        agencia="Turismo Asturias" descripcion="La ruta va de la Plaza de Requexu a Returbio por una antigua trinchera ferroviaria, pasando por El Poliar, Muries y Los Pontones." recomendacion="9">
+        <personasAdecuadas>
+            <publico>Apta para todos</publico>
+        </personasAdecuadas>
+        <inicio lugar="Plaza el Requexu" direccion="Pl. de Requejo, 33600 Mieres, Asturias">
+            <coordenadas longitud="-5.771945" latitud="43.252608" altitud="206"/>
+        </inicio>
+        <referencias>
+            <referencia enlace="https://es.wikiloc.com/rutas-senderismo/ruta-del-ferrocarril-de-baltasara-122140273"/>
+            <referencia enlace="https://www.mieres.es/turismo/patrimonio/patrimonio-artistico/plaza-de-san-xuan-plaza-del-requexu/"/>
+            <referencia enlace="https://www.mieres.es/turismo/naturaleza/rutas-de-senderismo/ruta-del-ferrocarril-de-baltasara/"/>
+        </referencias>
+        <hitos>
+            <hito nombre="Plaza el Requexu" descripcion="Plaza pública dentro del barrio de Requejo">
+                <distancia valor="0" unidades="km"/>
+                <coordenadas longitud="-5.771945" latitud="43.252608" altitud="206"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos1_1.webp"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                    <video enlace="multimedia/videos/mieres.mp4"/>
+                </galeriaVideos>
+            </hito>
+
+            <hito nombre="Cementerio" descripcion="Cementerio de mieres">
+                <distancia valor="0.6" unidades="km"/>
+                <coordenadas longitud="-5.762699" latitud="43.253124" altitud="214"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos1_2.webp"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                </galeriaVideos>
+            </hito>
+
+            <hito nombre="Returbiu" descripcion="Rioturbio ​ es un barrio de la parroquia de Santa Rosa">
+                <distancia valor="2.6" unidades="km"/>
+                <coordenadas longitud="-5.741066" latitud="43.263266" altitud="270"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos1_3.jpg"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                </galeriaVideos>
+            </hito>
+
+            <hito nombre="Parque Emilio Murcia" descripcion="Parque para niños en Rioturbio">
+                <distancia valor="0.9" unidades="km"/>
+                <coordenadas longitud="-5.742748" latitud="43.262350" altitud="156"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos1_4.webp"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                </galeriaVideos>
+            </hito>
+
+            <hito nombre="Baliza 2km" descripcion="Baliza en Vías Verdes de Rioturbio">
+                <distancia valor="0.8" unidades="km"/>
+                <coordenadas longitud="-5.749995" latitud="43.258520" altitud="251"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos1_5.jpg"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                </galeriaVideos>
+            </hito>
+        </hitos>
+    </ruta>
+
+    <ruta nombre="Senda del peñón" tipo="Paisajística" medioTransporte="A pie" fechaInicio="2025-06-30" horaInicio="10:00:00" duracion="1 hora 40 minutos"
+        agencia="Turismo Asturias" descripcion="Ruta circular siguiendo antiguas vías mineras del Peñón y Baltasara, con final en la plaza de La Pasera." recomendacion="10">
+        <personasAdecuadas>
+            <publico>Apta para todos</publico>
+        </personasAdecuadas>
+        <inicio lugar="Iglesia de San Juan" direccion="Pl. Pasera, 28, 33600 Mieres, Asturias">
+            <coordenadas longitud="-5.771885" latitud="43.252422" altitud="208"/>
+        </inicio>
+        <referencias>
+            <referencia enlace="https://es.wikiloc.com/rutas-senderismo/mieres-senda-del-penon-circular-asturias-112500703#wp-112500705"/>
+            <referencia enlace="https://www.jfcamina.es/asturias/caudal/009-Mieres/rioturbio.html"/>
+            <referencia enlace="https://www.groupet.es/activities/2625"/>
+        </referencias>
+        <hitos>
+            <hito nombre="Iglesia de San Juan" descripcion="Construida entre 1928 y 1931 en estilo neobarroco">
+                <distancia valor="0" unidades="km"/>
+                <coordenadas longitud="-5.771885" latitud="43.252422" altitud="208"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos2_1.webp"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                    <video enlace="multimedia/videos/hitos2.mp4"/>
+                </galeriaVideos>
+            </hito>
+
+            <hito nombre="Botas" descripcion="Escultura en el Chorru">
+                <distancia valor="1.2" unidades="km"/>
+                <coordenadas longitud="-5.761772" latitud="43.252474" altitud="261"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos2_2.jpg"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                </galeriaVideos>
+            </hito>
+
+            <hito nombre="Virgen de la Cuarentena" descripcion="Escultura de la Virgen de la Cuarentena">
+                <distancia valor="0.7" unidades="km"/>
+                <coordenadas longitud="-5.75906" latitud="43.254643" altitud="275"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos2_3.jpg"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                </galeriaVideos>
+            </hito>
+
+            <hito nombre="Amigos del Caballo" descripcion="Escultura de un caballo en roca">
+                <distancia valor="0.3" unidades="km"/>
+                <coordenadas longitud="-5.756221" latitud="43.255771" altitud="275"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos2_4.jpg"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                </galeriaVideos>
+            </hito>
+
+            <hito nombre="Baltasara" descripcion="Pueblo de la parroquia de Santa Rosa">
+                <distancia valor="1.4" unidades="km"/>
+                <coordenadas longitud="-5.743845" latitud="43.257266" altitud="270"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos2_5.jpg"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                </galeriaVideos>
+            </hito>
+        </hitos>
+    </ruta>
+
+    <ruta nombre="Mieres - Pico Polio" tipo="Paisajística" medioTransporte="A pie" fechaInicio="2025-07-02" horaInicio="10:00:00" duracion="8 horas"
+        agencia="Tutismo Asturias" descripcion="Ascenso por La Mariana y descenso por Cordal de Carraspientes" recomendacion="10">
+        <personasAdecuadas>
+            <publico>Jóvenes y adultos</publico>
+        </personasAdecuadas>
+        <inicio lugar="Plaza de la Libertad" direccion="Mieres, 33600 Mieres, Asturias">
+            <coordenadas longitud="-5.774871" latitud="43.246866" altitud="156"/>
+        </inicio>
+        <referencias>
+            <referencia enlace="https://es.wikiloc.com/rutas-senderismo/mieres-pico-polio-i-ascenso-por-la-mariana-y-descenso-por-cordal-de-carraspientes-asturias-81999549"/>
+            <referencia enlace="https://www.jfcamina.es/asturias/caudal/006-Mieres-Polio/lladreo.html"/>
+            <referencia enlace="https://www.vivirasturias.com/entidades-poblacion/c/0/i/54879723/mariana"/>
+        </referencias>
+        <hitos>
+            <hito nombre="Capilla del Carmen" descripcion="Capilla de origen medieval">
+                <distancia valor="0" unidades="km"/>
+                <coordenadas longitud="-5.772787" latitud="43.244268" altitud="215"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos3_1.jpg"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                </galeriaVideos>
+            </hito>
+
+            <hito nombre="Cuarteles de Mariana" descripcion="Aldea de Extrarradio Mieres">
+                <distancia valor="1.9" unidades="km"/>
+                <coordenadas longitud="-5.766404" latitud="43.23812" altitud="445"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos3_2.jpg"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                </galeriaVideos>
+            </hito>
+
+            <hito nombre="Pico Polio" descripcion="Pico más alo de la sierra de Carraspientes">
+                <distancia valor="6.3" unidades="km"/>
+                <coordenadas longitud="-5.718155" latitud="43.231293" altitud="1050"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos3_3.jpg"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                    <video enlace="multimedia/videos/hitos3.mp4"/>
+                </galeriaVideos>
+            </hito>
+
+            <hito nombre="Amigos del Caballo" descripcion="Escultura de un caballo en roca">
+                <distancia valor="10.3" unidades="km"/>
+                <coordenadas longitud="-5.756221" latitud="43.255771" altitud="275"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos2_4.jpg"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                </galeriaVideos>
+            </hito>
+
+            <hito nombre="Aguaín" descripcion="Barrio de aguaín">
+                <distancia valor="1.6" unidades="km"/>
+                <coordenadas longitud="-5.768237" latitud="43.252268" altitud="235"/>
+                <galeriaFotos>
+                    <foto enlace="multimedia/imagenes/hitos3_5.jpg"/>
+                </galeriaFotos>
+                <galeriaVideos>
+                </galeriaVideos>
+            </hito>
+        </hitos>
+    </ruta>
+
+</rutas>

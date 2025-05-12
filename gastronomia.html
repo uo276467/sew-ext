@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mieres: gastronomía</title>
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" />
+
+    <meta name="author" content="Daniel Suárez de la roza" />
+    <meta name="description" content="descripción del documento" />
+    <meta name="keywords" content="Mieres, gastronomía, comida, platos" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1><a href="index.html">Mieres</a></h1>
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="gastronomia.html" class="activo">Gastronomia</a>
+          <a href="rutas.html">Rutas</a>
+          <a href="meteorologia.html">Meteorología</a>
+          <a href="juego.html">Juego</a>
+          <a href="php/reservas.php">Reservas</a>
+          <a href="ayuda.html">Ayuda</a>
+        </nav>
+      </header>
+
+      <p>Estás en: Gastronomia</p>
+
+      <section>
+        <h2>La gastronomia de Mieres</h2>
+
+        <h3>Platos principales</h3>
+        <ol>
+          <li>Arveyos con jamón</li>
+          <li>Pote mierense con rabadal</li>
+          <li>Truchas grandonas</li>
+          <li>Pitu de caleya</li>
+        </ol>
+
+        <h3>Dónde comer</h3>
+        <ul>
+          <li>
+            La Mendiga
+            <ul>
+              <li>C. Teodoro Cuesta</li>
+              <li>30-40 €</li>
+              <li>Restaurante</li>
+            </ul>
+          </li>
+          <li>
+            El cenador del Azul
+            <ul>
+              <li>C. Aller</li>
+              <li>30-40 €</li>
+              <li>Restaurante</li>
+            </ul>
+          </li>
+          <li>
+            Bobela
+            <ul>
+              <li>C. Juanín de mieres</li>
+              <li>20-30 €</li>
+              <li>Restaurante</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3>Palabras en asturiano</h3>
+        <dl>
+          <dt>Arveyos</dt>
+          <dd>Guisantes</dd>
+          <dt>Rabadal</dt>
+          <dd>Rabo de cerdo</dd>
+          <dt>Pitu de caleya</dt>
+          <dd>Pollo del camino</dd>
+        </dl>
+
+        <h3>Menú</h3>
+        <table>
+          <tr>
+            <th scope="col" id="plato">Plato</th>
+            <th scope="col" id="preio">Precio</th>
+          </tr>
+          <tr>
+            <td headers="plato">Arveyos con jamón</td>
+            <td headers="preio">15,00€</td>
+          </tr>
+          <tr>
+            <td headers="plato">Pote mierense con rabadal</td>
+            <td headers="preio">19,00€</td>
+          </tr>
+          <tr>
+            <td headers="plato">Truchas grandonas</td>
+            <td headers="preio">20,00€</td>
+          </tr>
+          <tr>
+            <td headers="plato">Pitu de caleya</td>
+            <td headers="preio">22,00€</td>
+          </tr>
+        </table>
+
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="multimedia/imagenes/mieres.jpg"
+          />
+          <source
+            media="(max-width: 899px)"
+            srcset="multimedia/imagenes/mieres2.jpg"
+          />
+          <source
+            media="(min-width: 900px)"
+            srcset="multimedia/imagenes/mieres3.jpg"
+          />
+          <img alt="Mieres" src="multimedia/imagenes/mieres.jpg" />
+        </picture>
+
+        <video controls="">
+          <source src="multimedia/videos/mieres.mp4" type="video/mp4" />
+          <source src="multimedia/videos/mieres.webm" type="video/webm" />
+        </video>
+
+        <audio controls>
+          <source src="multimedia/audios/musica.mp3" />
+          <source src="multimedia/audios/musica.wav" />
+        </audio>
+      </section>
+    </main>
+  </body>
+</html>
